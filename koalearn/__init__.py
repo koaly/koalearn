@@ -1,5 +1,5 @@
-from ws_sentiment.sentiment import *
+from koalearn.sentiment import *
 
-name = "ws_sentiment"
+name = "koalearn"
 
-__all__ = ["sentiment"]
+__all__ = ["koalearn"]

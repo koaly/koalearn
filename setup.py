@@ -10,4 +10,6 @@ setup(
     license="Wisesight",
     packages=find_packages(),
     zip_safe=False
+
+    package_data={"koalearn": ["model/*", "vectorizer/*"]},
 )

@@ -1,4 +1,4 @@
-from ws_sentiment import *
+from ws_sentiment.sentiment import *
 
 name = "ws_sentiment"
 

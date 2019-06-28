@@ -9,7 +9,7 @@ setup(
     author_email='koaly@koaly.me',
     license="Wisesight",
     packages=find_packages(),
-    zip_safe=False
+    zip_safe=False,
 
     package_data={"koalearn": ["model/*.pickle", "vectorizer/*.pickle", "vectorizer/*.json"]}
 )

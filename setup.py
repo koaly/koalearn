@@ -11,5 +11,5 @@ setup(
     packages=find_packages(),
     zip_safe=False
 
-    package_data={"koalearn": ["model/*", "vectorizer/*"]},
+    package_data={"koalearn": ["model/*.pickle", "vectorizer/*.pickle", "vectorizer/*.json"]},
 )
